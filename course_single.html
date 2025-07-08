@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Begin Head -->
+
+    <meta charset="utf-8" />
+    <title>Carpe Diem</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="Educo" />
+    <meta name="keywords" content="Educo, html template, Education template" />
+    <meta name="author" content="Kamleshyadav" />
+    <meta name="MobileOptimized" content="320" />
+
+    <!--srart theme style -->
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/default-style.css" rel="stylesheet" type="text/css" />
+
+    <!-- favicon links -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/header/favicon.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--payment-->
+	<style>
+.qr-box {
+      display: none;
+      max-width: 320px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .qr-box img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+	  margin-bottom: 20px;
+    }
+
+    .qr-box p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    #success-message {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #28a745;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+    <!--Page main section start-->
+    <div id="educo_wrapper">
+        <!--Header start-->
+        <header id="ed_header_wrapper">
+            <div class="ed_header_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <p>Buckle up And Dive into The Enormous Land of Wisdom</p>
+                            <div class="ed_info_wrapper">
+                                <a href="javascript:void(0);" id="login_button">Login</a>
+                                <div id="login_one" class="ed_login_form">
+                                    <h3>log in</h3>
+                                    <form class="form row m-0">
+                                        <div class="form-group">
+                                            <label class="control-label">Email :</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Password :</label>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit">login</button>
+                                            <a href="signup.html">registration</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ed_header_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-12 col-12">
+                            <div class="educo_logo">
+                                <a href="index.html"><img src="assets/images/header/logo.png" alt="logo" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-2 col-md-1 col-sm-12 col-12">
+                            <div class="main-menu-container">
+                                <div class="main-menu">
+                                    <ul>
+                                        <!--li class="has-sub-menu">
+                                            <a href="javascript:void(0);">Home</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="index2.html">home-2</a></li>
+                                            </ul>
+                                        </li-->
+                                        <li><a href="about.html">about us</a></li>
+										<li><a href="about.html">view demo</a></li>
+                                        <!--li class="has-sub-menu">
+                                            <a href="javascript:void(0);">blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog.html">blog-large</a></li>
+                                                <li><a href="blog_med.html">blog-medium</a></li>
+                                                <li><a href="blog_single.html">blog-single</a></li>
+                                            </ul>
+                                        </li-->
+
+                                        <!--li class="has-sub-menu">
+                                            <a href="javascript:void(0);">events</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="events.html">all events</a></li>
+                                                <li><a href="event_single.html">events-single</a></li>
+                                            </ul>
+                                        </li-->
+                                        <li class="has-sub-menu">
+                                            <a href="javascript:void(0);">courses</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="courses.html">all courses</a></li>
+                                                <li><a href="course_sidebar.html">course-sidebar</a></li>
+                                                <li><a href="course_single.html">course-single</a></li>
+                                                <li><a href="course_lesson.html">course-lesson</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub-menu">
+                                            <a href="javascript:void(0);">Pages</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="instructor.html">all instructor</a></li>
+                                                <li><a href="instructor_dashboard.html">instructor dashboard</a></li>
+                                                <li><a href="dashboard.html">student dashboard</a></li>
+                                                <li><a href="become_teacher.html">Become teacher</a></li>
+                                                <li><a href="pricing_table.html">pricing table</a></li>
+                                                <li><a href="cart.html">cart</a></li>
+                                                <li><a href="checkout.html">checkout</a></li>
+                                                <li><a href="purchase_course.html">purchase course</a></li>
+                                                <li><a href="not_found.html">404 error</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-7 col-md-8 col-sm-12 col-12">
+                            <div class="educo_call edu-info-menu">
+                                <a href="javascript:void(0);"><i class="fa fa-phone"></i> +91-8093490296</a>
+                                <div class="menu-btn-wrap">
+                                    <a href="javascript:void(0);" class="menu-btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--header end -->
+        <!--Breadcrumb start-->
+        <div class="ed_pagetitle">
+            <div class="ed_img_overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-4 col-sm-6">
+                        <div class="page_title">
+                            <h2>GATE (PG&Ph.D)</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 col-sm-6">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">home</a></li>
+                            <li><i class="fa fa-chevron-left"></i></li>
+                            <li><a href="courses.html">courses</a></li>
+                            <li><i class="fa fa-chevron-left"></i></li>
+                            <li><a href="course_single.html">GATE (PG&Ph.D)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Breadcrumb end-->
+        <!--Single content start-->
+        <div class="ed_graysection ed_course_single ed_toppadder80 ed_bottompadder80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8 col-sm-12 col-12">
+                        <div class="ed_course_single_item">
+                            <div class="ed_course_single_image">
+                                <img src="assets/images/default/content/gate.png" alt="event image" />
+                            </div>
+                            <div class="ed_course_single_info">
+                                <h2>GATE (PG&Ph.D) <span>₹2999</span></h2>
+                                <!--div class="ed_rating">
+                                    <div class="row w-100 justify-content-between">
+                                        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="ed_stardiv">
+                                                        <div class="star-rating"><span style="width:80%;"></span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <span>(5 review)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-6 pull-right text-right">
+                                            <div class="ed_views">
+                                                <i class="fa fa-users"></i>
+                                                <span>35 students</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div-->
+                                <div class="row  w-100 justify-content-between">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                        <div class="course_detail">
+                                            <div class="course_faculty">
+                                                <img src="assets/images/default/content/v_bg.jpg" alt=""> <a href="instructor_dashboard.html">Itishree Dash</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 pull-right text-right">
+                                        <div class="ed_course_duration">
+                                            time duration: 75 days
+                                            <p>post graduation course</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ed_course_single_tab">
+                                <div role="tabpanel">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation"><a class="active" href="#description" aria-controls="description" role="tab" data-bs-toggle="tab">description</a></li>
+                                        <!--li role="presentation"><a href="#students" aria-controls="students" role="tab" data-bs-toggle="tab">students</a></li-->
+                                        <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-bs-toggle="tab">news</a></li>
+                                        <!--li role="presentation"><a href="#events" aria-controls="events" role="tab" data-bs-toggle="tab">events</a></li-->
+                                    </ul>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                            <div class="ed_course_tabconetent">
+                                                <h2>About Course</h2>
+    <p>
+      GATE (Graduate Aptitude Test in Engineering) is a national-level entrance exam in India used for admission to Postgraduate (PG) programs like <strong>M.Tech., M.E., M.S.</strong>, and for <strong>Ph.D.</strong> programs in top Indian institutes such as <strong>IITs, NITs, IIITs</strong>. It is also widely used for recruitment in Public Sector Units (PSUs) like IOCL, BHEL, ONGC, and more.
+    </p>
+
+    <p>Here is a breakdown regarding GATE for PG & Ph.D. courses:</p>
+
+    <h4>Purpose of GATE</h4>
+    <ul>
+      <li>Admission to M.Tech./M.E./MS in top engineering institutes.</li>
+      <li>Admission to Ph.D. programs in Engineering, Technology, and Sciences.</li>
+      <li>Recruitment in PSUs such as BHEL, ONGC, IOCL, and NTPC.</li>
+      <li>Some international universities (e.g., NTU Singapore) accept GATE scores.</li>
+      <li>Eligibility for AICTE/MHRD scholarships during PG/Ph.D. studies.</li>
+    </ul>
+
+    <h4>Eligibility</h4>
+    <ul>
+      <li>Final-year or completed Bachelor's degree (B.E./B.Tech./B.Arch./B.Sc./B.Pharm).</li>
+      <li>Final-year or completed Master's degree in Science, Math, Stats, or Computer Applications.</li>
+      <li>No age limit or restriction on number of attempts.</li>
+    </ul>
+
+    <h4>GATE Exam Details</h4>
+    <ul>
+      <li>Duration: 3 hours</li>
+      <li>Total: 65 questions (100 marks)</li>
+      <li>Types: MCQs, MSQs, and Numerical Answer Types</li>
+      <li>General Aptitude (15 marks) + Subject Paper (85 marks)</li>
+    </ul>
+
+    <h4>Score Validity & Financial Support</h4>
+    <ul>
+      <li>GATE score is valid for 3 years for admissions.</li>
+      <li>Stipend for PG students: Rs.12,400/month</li>
+      <li>Stipend for Ph.D. students: approx. Rs.31,000/month</li>
+    </ul>
+
+    <p>If you want personalized guidance, such as best books, preparation tips, or branch-specific strategy, feel free to reach out!</p>
+
+                                            </div>
+                                        </div>
+                                        <!--div role="tabpanel" class="tab-pane" id="students">
+                                            <div class="ed_inner_dashboard_info">
+                                                <div class="ed_course_single_info">
+                                                    <h2>total students :- <span>20</span></h2>
+                                                    <h5>10 students recently join this course</h5>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S01.jpg" alt="">
+                                                        <span>adler braxton</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S02.jpg" alt="">
+                                                        <span>baldwin dallas</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S03.jpg" alt="">
+                                                        <span>carney Tate</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S04.jpg" alt="">
+                                                        <span>dwight easton</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S05.jpg" alt="">
+                                                        <span>elbert wade</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S06.jpg" alt="">
+                                                        <span>hailey kyler</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S07.jpg" alt="">
+                                                        <span>graham ryder</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S08.jpg" alt="">
+                                                        <span>jaxon keegan</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S09.jpg" alt="">
+                                                        <span>kealy sage</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="ed_add_students">
+                                                        <img src="assets/images/default/content/S10.jpg" alt="">
+                                                        <span>lavern gunner</span>
+                                                        <p>new student</p>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="row">
+                                                            <div class="ed_blog_bottom_pagination ed_toppadder40">
+                                                                <nav>
+                                                                    <ul class="pagination">
+                                                                        <li><a href="javascript:void(0);">1</a></li>
+                                                                        <li><a href="javascript:void(0);">2</a></li>
+                                                                        <li><a href="javascript:void(0);">3</a></li>
+                                                                        <li class="active"><a href="javascript:void(0);">Next <span class="sr-only">(current)</span></a></li>
+                                                                    </ul>
+                                                                </nav>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div-->
+                                        <div role="tabpanel" class="tab-pane" id="news">
+                                            <div class="ed_course_tabconetent">
+<h2>Course News</h2>
+  <h5>Some recent news about this course...</h5>
+
+  <ul>
+    <li><strong>GATE 2025 Registration Deadline Extended:</strong> The last date to apply is now <strong>October 11, 2024</strong>. Candidates who missed the earlier deadline still have a chance to register.</li>
+
+    <li><strong>COAP 2025 Counselling (for IITs):</strong> The latest offer round (Round 9) was released on <strong>July 4, 2025</strong>. Candidates can check their offer status on the official COAP portal.</li>
+
+    <li><strong>CCMT 2025 Seat Allotment (for NITs):</strong> NIT Warangal published Round 3 allotment results on <strong>June 27, 2025</strong>. Candidates are advised to check the CCMT portal for further instructions.</li>
+
+    <li><strong>GATE 2025 Scorecard:</strong> Scorecards can be downloaded for free until <strong>May 31, 2025</strong>. After that, it can still be downloaded by paying a late fee until <strong>December 31, 2025</strong>.</li>
+  </ul>
+  
+                                            </div>
+                                        </div>
+										
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab End-->
+                        </div>
+                        <div class="ed_time_executor ed_toppadder40">
+                            <ul>
+                                <li><a href="#">lessons</a> <span>estimated time</span></li>
+                                <li><a href="#">Reading Comprehension</a> <span>1Hourse 10 Minuts</span></li>
+                                <li><a href="#">Mathematical Aptitude</a> <span>2Hourse 30 Minuts</span></li>
+                                <li><a href="#">English Literature</a> <span>3Hourse 15 Minuts</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Sidebar Start-->
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="sidebar_wrapper_upper">
+                            <div class="sidebar_wrapper">
+<!--payment start-->							
+  <aside class="widget widget_button">
+    <a href="javascript:void(0);" class="ed_btn ed_green" onclick="showQRCode()">Purchase this course</a>
+  </aside>
+  <div class="qr-box" id="qrBox">
+    <p>📱 Scan this QR code with any UPI app:</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=upi://pay?pa=7008673890@ibl&pn=Rudra&am=10&cu=INR&size=250x250" alt="UPI QR Code" />
+  </div>
+<!--payment start-->
+  
+                                <aside class="widget widget_categories">
+                                    <h4 class="widget-title">related courses</h4>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-chevron-right"></i> UGC NET/JRF</a></li>
+                                        <li><a href="#"><i class="fa fa-chevron-right"></i> CUET</a></li>
+                                        <li><a href="#"><i class="fa fa-chevron-right"></i> Ph.D Interview</a></li>
+
+                                    </ul>
+                                </aside>
+                                <aside class="widget widget_sharing">
+                                    <h4 class="widget-title">share this course</h4>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i> facebook</a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i> linkedin</a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i> twitter</a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i> google+</a></li>
+                                    </ul>
+                                </aside>
+                            </div>
+                        </div>
+                        <div class="ed_sidebar_slider ed_bottompadder10">
+                            <h3>popular courses</h3>
+                            <div id="owl-demo3" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="ed_item_img">
+                                        <img src="assets/images/default/slider/sec1_s10.jpg" alt="item1" class="img-responsive">
+                                    </div>
+                                    <div class="ed_mostrecomeded_course_slider ed_most_recomended_data">
+                                        <h4><a href="course_single.html">GATE (PG&Ph.D) </a><span>₹2999</span></h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ed_item_img">
+                                        <img src="assets/images/default/slider/sec1_s9.jpg" alt="item2" class="img-responsive">
+                                    </div>
+                                    <div class="ed_mostrecomeded_course_slider ed_most_recomended_data">
+                                        <h4><a href="#">UGC NET/JRF</a><span>₹2999</span></h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ed_item_img">
+                                        <img src="assets/images/default/slider/sec1_s8.jpg" alt="item3" class="img-responsive">
+                                    </div>
+                                    <div class="ed_mostrecomeded_course_slider ed_most_recomended_data">
+                                        <h4><a href="#">CUET </a><span>₹2759</span></h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ed_item_img">
+                                        <img src="assets/images/default/slider/sec1_s5.jpg" alt="item4" class="img-responsive">
+                                    </div>
+                                    <div class="ed_mostrecomeded_course_slider ed_most_recomended_data">
+                                        <h4><a href="#">Ph.D Interview </a><span>₹2999</span></h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Sidebar End-->
+                </div>
+            </div>
+        </div>
+        <!--Single content end-->
+
+        <!--Footer Top section start-->
+        <div class="ed_footer_wrapper">
+            <div class="ed_footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="widget text-widget">
+                                <p>
+                                    <a href="index.html"><img src="assets/images/footer/F_Logo.png" alt="Footer Logo" /></a>
+                                </p>
+                                <p>The most widely used proverb that "Education dispels darkness" has a prolific importance and we cannot deny that. A society devoid of Knowledge, Wisdom and the spectrum of Education is distressing to picturize. Carpe Diem stands tall to replenish and guide students toiling hard for National Level Examination to pursue Research Programme in respected Government Institutes.</p>
+                                <!--div class="ed_sociallink">
+                                    <ul>
+                                        <li><a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div-->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="widget text-widget">
+                                <h4 class="widget-title">Contact us</h4>
+                                <p><i class="fa fa-safari"></i>House No.-29, South Delhi, New Delhi<br/>India</p>
+                                <p><i class="fa fa-envelope-o"></i><a href="javascript:void(0);">i.dash8093@gmail.com</a></p>
+                            </div>
+                        </div>
+<!--added-->
+<div class="col-lg-4 col-md-4 col-sm-12">
+  <div class="widget text-widget">						
+    <div class="newsletter-box rounded" style="background-color: transparent; color: white;">
+      <h4 class="widget-title" style="color: white;">Subscribe to Newsletter</h4>
+      <p class="mb-4" style="color: white;">Get the latest updates and free resources delivered to your inbox.</p>
+      <form class="row g-2">
+        <div class="col-8">
+          <input 
+            type="email" 
+            class="form-control bg-dark text-white border-light" 
+            placeholder="Enter your email" 
+            required
+          />
+        </div>
+        <div class="col-4">
+          <button type="submit" class="btn btn-light w-100">
+            Subscribe
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+                   </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Top section end-->
+        <!--Footer Bottom section start-->
+        <div class="ed_footer_bottom">
+            <div class="container">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="ed_copy_right">
+                                <p>&copy; Copyright 2025, All Rights Reserved, <a href="javascript:void(0);">Carpe Diem</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="ed_footer_menu">
+                                <ul>
+                                    <li><a href="index.html">home</a></li>
+                                    <li><a href="#">private policy</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Bottom section end-->
+    </div>
+    <!--Page main section end-->
+
+
+
+    <!--Main js file start-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/modernizr.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/plugins/revel/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/js/plugins/revel/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/plugins/revel/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/js/plugins/revel/revolution.extension.navigation.min.js"></script>
+    <script src="assets/js/plugins/revel/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/js/plugins/countto/jquery.countTo.js"></script>
+    <script src="assets/js/plugins/countto/jquery.appear.js"></script>
+    <script src="assets/js/default-custom.js"></script>
+<!--payment-->	
+<script>
+    function showQRCode() {
+      const qr = document.getElementById("qrBox");
+      const msg = document.getElementById("success-message");
+
+      qr.style.display = "block";
+      msg.style.display = "none";
+
+    }
+  </script>
+</body>
+</html>
